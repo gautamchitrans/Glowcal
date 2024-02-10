@@ -30,7 +30,7 @@ We welcome contributions from the community! If you'd like to contribute to the 
 
 ## Credits
 
-This app was built with love by Gautam Chitransh and Suaj Sisodia.
+This app was built with love by Gautam Chitransh and Suraj Sisodia.
 
 ## License
 
