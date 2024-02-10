@@ -1,0 +1,64 @@
+name: gur
+description: This application allows the users to donate food to local NGOs, who
+  will transport it to the needy persons. You need to select the amount of food
+  and give remarks, if any, to the NGO that will be coming to take the delivery.
+  The application will automatically detect your location and list the NGOs near
+  you. You can select any NGO of your choice(affected by your previous
+  experience or fame of NGOs). You can also have an in-app chat conversation
+  with the person who will be coming up, if there is any change in plan, or they
+  need to come delayed, or early. You'll get a prompt for your packet request
+  and will get a message as soon as the NGO accepts/rejects it.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  bubble: ^1.1.9+1
+  cached_network_image: ^3.3.1
+  carousel_slider: ^4.2.1
+  cloud_firestore: ^4.15.3
+  cloud_functions: ^4.6.4
+  cupertino_icons: ^1.0.0
+  firebase_auth: ^4.17.3
+  firebase_core: ^2.25.3
+  firebase_messaging: ^14.7.14
+  firebase_storage: ^11.6.4
+  flutter:
+    sdk: flutter
+  flutter_animated_dialog: ^2.0.0
+  flutter_email_sender: ^6.0.2
+  flutter_local_notifications: ^16.3.2
+  flutter_native_splash: ^2.3.10
+  flutter_spinkit: ^5.0.0
+  flutter_svg: ^2.0.9
+  flutter_switch: ^0.3.2
+  geolocator: ^10.1.0
+  google_fonts: ^6.1.0
+  image_picker: ^1.0.7
+  location: ^5.0.3
+  material_design_icons_flutter: null
+  otp_text_field: ^1.1.0
+  page_transition: ^2.1.0
+  shared_preferences: ^2.0.5
+  titled_navigation_bar: ^5.0.0-nullsafety.0
+  toast: null
+  url_launcher: ^6.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: images/splash2.png
+  android: true
+  ios: true
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/
