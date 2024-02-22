@@ -32,6 +32,4 @@ We welcome contributions from the community! If you'd like to contribute to the 
 
 This app was built with love by Gautam Chitransh and Suraj Sisodia.
 
-## License
 
-This project is licensed under the [MIT License](LICENSE).
